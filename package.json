@@ -1,0 +1,25 @@
+{
+    "name": "sel",
+    "displayName": "SEL",
+    "description": "SEL Support for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sel",
+            "aliases": ["SEL", "sel"],
+            "extensions": [".sel"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sel",
+            "scopeName": "source.sel",
+            "path": "./syntaxes/sel.tmLanguage.json"
+        }]
+    }
+}
