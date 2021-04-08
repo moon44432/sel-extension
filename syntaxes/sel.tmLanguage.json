@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.sel",
-				"match": "\\b(if|then|else|while|for|rept|loop|return|break)\\b"
+				"match": "\\b(import|if|then|else|while|for|rept|loop|return|break)\\b"
 			},
 			{
 				"name": "keyword.declare.sel",
