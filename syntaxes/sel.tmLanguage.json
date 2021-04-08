@@ -36,7 +36,7 @@
 		"numerics": {
 			"patterns": [{
 				"name": "constant.numeric.literal.sel",
-				"match": "[+-]?([0-9]*[.])?[0-9]+"
+				"match": "\\b[+-]?([0-9]*[.])?[0-9]+\\b"
 			}]
 		},
 		"strings": {
